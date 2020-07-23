@@ -1,10 +1,46 @@
 # Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project
+## Acute Lymphoblastic Leukemia Fast AI 2019
 
-## Acute Lymphoblastic Leukemia Detection System 2020
+![Acute Lymphoblastic Leukemia Tensorflow 2020](Media/Images/Peter-Moss-Acute-Myeloid-Lymphoblastic-Leukemia-Research-Project.png)
 
-![Peter Moss Acute Myeloid / Lymphoblastic Leukemia AI Research Project](https://www.PeterMossAmlAllResearch.com/media/images/banner.png)
+[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.1.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.1.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-0.2.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.2.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 
-This project is made up of a collection of classifiers written in FastAi Library. 
+&nbsp;
+
+# Table Of Contents
+
+- [Introduction](#introduction)
+- [DISCLAIMER](#disclaimer)
+- [Getting Started](#getting-started)
+  - [Hardware](#hardware)
+  - [Software](#software)
+  - [Clone the repository](#clone-the-repository)
+    - [Developer Forks](#developer-forks)
+- [ALL-IDB](#all-idb)
+  - [ALL_IDB1](#all_idb1)
+- [FastAI Classifier Projects](#fastai-classifier-projects)
+- [Contributing](#contributing)
+  - [Contributors](#contributors)
+- [Versioning](#versioning)
+- [License](#license)
+- [Bugs/Issues](#bugs-issues)
+
+&nbsp;
+
+# Introduction
+A series of Acute Lymphoblastic Leukemia CNNs programmed in Python using FastAI. Project by team member [Salvatore Raieli](https://www.leukemiaresearchassociation.ai/team/salvatore-raieli  "Salvatore Raieli").
+
+&nbsp;
+
+# DISCLAIMER
+
+These projects should be used for research purposes only. The purpose of the projects is to show the potential of Artificial Intelligence for medical support systems such as diagnosis systems.
+
+Although the classifiers are accurate and show good results both on paper and in real world testing, they are not meant to be an alternative to professional medical diagnosis.
+
+Salvatore Raieli is a bioinformatician researcher and PhD in Immunology, but does not work in medical diagnosis. Please use these systems responsibly.
+
+Please use this system responsibly.
 
 &nbsp;
 
@@ -22,15 +58,37 @@ In this project I used Python 3, FastAI.
 
 ## Clone the repository
 
-First of all you should clone the [ALL-FastAI-2019](https://github.com/AMLResearchProject/ALL-FastAI-2019 "ALL-FastAI-2019") repository from the [Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project](hhttps://github.com/AMLResearchProject "Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project") Github Organization. 
+Clone the [ALL FastAI 2019](https://github.com/AMLResearchProject/ALL-FastAI-2019 " ALL FastAI 2019") repository from the [Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project](https://github.com/AMLResearchProject "Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project") Github Organization.
 
-To do this, make sure you have Git installed, navigate to the location you want to clone the repository to on your device using terminal/commandline, and then use the following command:
+To clone the repository and install the ALL FastAI 2019 classifiers, make sure you have Git installed. Now navigate to the home directory on your device using terminal/commandline, and then use the following command.
 
 ```
   $ git clone https://github.com/AMLResearchProject/ALL-FastAI-2019.git
 ```
 
-Once you have used the command above you will see a directory called **ALL-FastAI-2019** in the location you chose to clone to. In terminal, navigate to the **ALL-FastAI-2019** directory, this is your project root directory.
+Once you have used the command above you will see a directory called **ALL-FastAI-2019** in your home directory.
+
+```
+ls
+```
+
+Using the ls command in your home directory should show you the following.
+
+```
+ALL-FastAI-2019
+```
+
+Navigate to **ALL-FastAI-2019/Projects/** directory, this is your project root directory for this tutorial.
+
+### Developer Forks
+
+Developers from the Github community that would like to contribute to the development of this project should first create a fork, and clone that repository. For detailed information please view the [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") guide. You should pull the latest code from the development branch.
+
+```
+  $ git clone -b "0.2.0" https://github.com/AMLResearchProject/ALL-FastAI-2019.git
+```
+
+The **-b "0.2.0"** parameter ensures you get the code from the latest master branch. Before using the below command please check our latest master branch in the button at the top of the project README.
 
 ## ALL-IDB
 
@@ -48,30 +106,34 @@ In this project, [ALL-IDB1](https://homes.di.unimi.it/scotti/all/#datasets) is u
 
 | Model  | Project                                                                                                                                                                                     | Description                           | Status  | Author                                                                                                                                                                                     |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Resnet | [FastAI Resnet18 Classifier](https://github.com/AMLResearchProject/ALL-FastAI-2019/blob/master/Colab-notebooks/ALL_FastAI_Resnet_18.ipynb "FastAI Resnet18 Classifier")         | A FastAI model trained using Resnet18 | Ongoing | [Salvatore Raieli](https://github.com/salvatorera "Salvatore Raieli") / [Adam Milton-Barker](https://www.petermossamlallresearch.com/team/adam-milton-barker/profile "Adam Milton-Barker") |
-                 
+| Resnet | [FastAI Resnet18 Classifier](Projects/ALL_FastAI_Resnet_18.ipynb "FastAI Resnet18 Classifier")         | A FastAI model trained using Resnet18 | Ongoing | [Salvatore Raieli](https://www.leukemiaresearchassociation.ai/team/salvatore-raieli  "Salvatore Raieli") |
+
 &nbsp;
 
 # Contributing
 
 The Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research project encourages and welcomes code contributions, bug fixes and enhancements from the Github.
 
-Please read the [CONTRIBUTING](https://github.com/AMLResearchProject/ALL-FastAI-2019/blob/master/CONTRIBUTING.md "CONTRIBUTING") document for a full guide to forking our repositories and submitting your pull requests. You will also find information about our code of conduct on this page.
+Please read the [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") document for a full guide to forking our repositories and submitting your pull requests. You will also find information about our code of conduct on this page.
 
 ## Contributors
 
-- [Salvatore Raieli](https://github.com/salvatorera "Salvatore Raieli") - [Peter Moss Leukemia AI Research](https://www.leukemiaresearchassociation.ai "Peter Moss Leukemia AI Research") & Biogenera, Bologna, Italy
+- [Salvatore Raieli](https://www.leukemiaresearchassociation.ai/team/salvatore-raieli  "Salvatore Raieli") - [Asociacion De Investigation En Inteligencia Artificial Para La Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociacion De Investigation En Inteligencia Artificial Para La Leucemia Peter Moss") Bioinformatics & Immunology AI R&D, Bologna, Italy
 
 &nbsp;
 
 # Versioning
 
-We use SemVer for versioning. For the versions available, see [Releases](https://github.com/AMLResearchProject/ALL-FastAI-2019/releases "Releases").
+We use SemVer for versioning.
+
+&nbsp;
 
 # License
 
-This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/AMLResearchProject/ALL-FastAI-2019/blob/master/LICENSE "LICENSE") file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE.md "LICENSE") file for details.
+
+&nbsp;
 
 # Bugs/Issues
 
-We use the [repo issues](https://github.com/AMLResearchProject/ALL-FastAI-2019/issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](https://github.com/AMLResearchProject/ALL-FastAI-2019/blob/master/CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.
+We use the [repo issues](issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.
