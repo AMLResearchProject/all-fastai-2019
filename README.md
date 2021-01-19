@@ -3,7 +3,7 @@
 
 ![Acute Lymphoblastic Leukemia Tensorflow 2020](Media/Images/Peter-Moss-Acute-Myeloid-Lymphoblastic-Leukemia-Research-Project.png)
 
-[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.2.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.2.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-0.3.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.3.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
+[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.3.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.3.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-0.4.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.4.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 
 &nbsp;
 
@@ -63,7 +63,7 @@ Clone the [ALL FastAI 2019](https://github.com/AMLResearchProject/ALL-FastAI-201
 To clone the repository and install the ALL FastAI 2019 classifiers, make sure you have Git installed. Now navigate to the home directory on your device using terminal/commandline, and then use the following command.
 
 ```
-  $ git clone https://github.com/AMLResearchProject/ALL-FastAI-2019.git
+  $ git clone https://github.com/AMLResearchProject/ALL-FastAI-2019.0.4.0.git
 ```
 
 Once you have used the command above you will see a directory called **ALL-FastAI-2019** in your home directory.
