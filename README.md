@@ -63,7 +63,7 @@ Clone the [ALL FastAI 2019](https://github.com/AMLResearchProject/ALL-FastAI-201
 To clone the repository and install the ALL FastAI 2019 classifiers, make sure you have Git installed. Now navigate to the home directory on your device using terminal/commandline, and then use the following command.
 
 ```
-  $ git clone https://github.com/AMLResearchProject/ALL-FastAI-2019.0.4.0.git
+  $ git clone https://github.com/AMLResearchProject/ALL-FastAI-2019.git
 ```
 
 Once you have used the command above you will see a directory called **ALL-FastAI-2019** in your home directory.
@@ -85,10 +85,10 @@ Navigate to **ALL-FastAI-2019/Projects/** directory, this is your project root d
 Developers from the Github community that would like to contribute to the development of this project should first create a fork, and clone that repository. For detailed information please view the [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") guide. You should pull the latest code from the development branch.
 
 ```
-  $ git clone -b "0.3.0" https://github.com/AMLResearchProject/ALL-FastAI-2019.git
+  $ git clone -b "0.4.0" https://github.com/AMLResearchProject/ALL-FastAI-2019.git
 ```
 
-The **-b "0.3.0"** parameter ensures you get the code from the latest master branch. Before using the below command please check our latest master branch in the button at the top of the project README.
+The **-b "0.4.0"** parameter ensures you get the code from the latest master branch. Before using the below command please check our latest master branch in the button at the top of the project README.
 
 ## ALL-IDB
 
